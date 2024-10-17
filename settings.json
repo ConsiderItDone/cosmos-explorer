@@ -1,0 +1,71 @@
+{
+    "public": {
+        "chainName": "Landslide Local",
+        "chainId": "landslide-local",
+        "gtm": "",
+        "genesis_time": "2023-03-04T03:46:06.533236098Z",
+        "slashingWindow": 10000,
+        "uptimeWindow": 250,
+        "initialPageSize": 30,
+        "secp256k1": false,
+        "bech32PrefixAccAddr": "wasm",
+        "bech32PrefixAccPub": "wasmpub",
+        "bech32PrefixValAddr": "wasmvaloper",
+        "bech32PrefixValPub": "wasmvaloperpub",
+        "bech32PrefixConsAddr": "wasmvalcons",
+        "bech32PrefixConsPub": "wasmvalconspub",
+        "bondDenom": "stake",
+        "powerReduction": 1000000,
+        "coins": [
+            {
+                "denom": "stake",
+                "displayName": "STAKE",
+                "fraction": 1000000
+            }
+        ],
+        "ledger": {
+            "coinType": 118,
+            "appName": "Cosmos",
+            "appVersion": "2.16.0",
+            "gasPrice": 0.025
+        },
+        "modules": {
+            "bank": true,
+            "supply": true,
+            "minting": false,
+            "gov": true,
+            "distribution": false
+        },
+        "coingeckoId": "stake",
+        "networks": [
+            {
+                "name": "Landslide Local",
+                "chainId": "landslide-local",
+                "rpc": "http://127.0.0.1:9750/ext/bc/28HU2wCL6FZ9NvqEPCv6UanoPoEtPcKyLMEmmbPAfThNLw2Jfu/rpc",
+                "api": "http://127.0.0.1:1317"
+            }
+        ],
+        "banners": false
+    },
+    "remote": {
+        "rpc": "http://127.0.0.1:9750/ext/bc/28HU2wCL6FZ9NvqEPCv6UanoPoEtPcKyLMEmmbPAfThNLw2Jfu/rpc",
+        "api": "http://127.0.0.1:1317"
+    },
+    "debug": {
+        "startTimer": true
+    },
+    "params": {
+        "startHeight": 0,
+        "defaultBlockTime": 5000,
+        "validatorUpdateWindow": 300,
+        "blockInterval": 15000,
+        "transactionsInterval": 18000,
+        "keybaseFetchingInterval": 18000000,
+        "consensusInterval": 1000,
+        "statusInterval": 7500,
+        "signingInfoInterval": 1800000,
+        "proposalInterval": 5000,
+        "missedBlocksInterval": 60000,
+        "delegationInterval": 900000
+    }
+}
