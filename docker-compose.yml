@@ -14,7 +14,7 @@ services:
       MONGO_URL: mongodb://mongo:27017/meteor
       PORT: 3000
     volumes:
-      - ./settings-files/landslide-local.json:/config/settings.json:ro
+      - ./settings-files/landslide-simd.json:/config/settings.json:ro
 
   mongo:
     image: mongo:latest

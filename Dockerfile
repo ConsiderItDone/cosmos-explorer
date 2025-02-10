@@ -9,24 +9,24 @@ RUN echo "deb http://deb.debian.org/debian bullseye main" >> /etc/apt/sources.li
 FROM base as build
 
 # Install meteor
-RUN curl https://install.meteor.com/ | sh
-
-WORKDIR /source/big-dipper
+# RUN curl https://install.meteor.com/ | sh
+RUN curl https://install.meteor.com/?release=2.14 | sh
 
 # Copy in the application code.
-
+WORKDIR /source/big-dipper
 COPY . .
 
 # Install the updates
 ENV METEOR_ALLOW_SUPERUSER=true
 RUN meteor npm install --save -f
+
 # Compile app, and Create tarball with the copmiled app
-RUN meteor build --allow-superuser ../output/ --architecture os.linux.x86_64 --server-only
+RUN meteor build --verbose --allow-superuser ../output/ --architecture os.linux.x86_64 --server-only
 
 ############################################################ß
 FROM base
 
-# # Copy the tarball from build container. Then untar it
+# Copy the tarball from build container. Then untar it
 COPY --from=build /source/output/big-dipper.tar.gz /opt/big_dipper/big_dipper.tar.gz
 RUN cd /opt/big_dipper && tar -xvzf big_dipper.tar.gz
 
