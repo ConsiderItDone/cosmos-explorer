@@ -41,13 +41,13 @@
             {
                 "name": "Landslide SIMD",
                 "chainId": "landslide-simd",
-                "rpc": "http://147.28.163.53:26657"
+                "rpc": "http://10.128.78.134:26657"
             }
         ],
         "banners": false
     },
     "remote": {
-        "rpc": "http://147.28.163.53:26657"
+        "rpc": "http://10.128.78.134:26657"
     },
     "debug": {
         "startTimer": true

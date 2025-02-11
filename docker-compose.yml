@@ -11,10 +11,12 @@ services:
       - mongo
     environment:
       BLOCKEXPLORERURL: ${APP_ROOT_URL:-http://localhost}
-      MONGO_URL: mongodb://mongo:27017/meteor
+      # MONGO_URL: mongodb://mongo:27017/meteor
+      MONGO_URL: mongodb://localhost:27017/meteor
       PORT: 3000
     volumes:
       - ./settings-files/landslide-simd.json:/config/settings.json:ro
+    network_mode: "host"
 
   mongo:
     image: mongo:latest
@@ -22,6 +24,7 @@ services:
       - --storageEngine=wiredTiger
     volumes:
       - data:/data/db
+    network_mode: "host"
 
 volumes:
   data:
