@@ -1,19 +1,19 @@
 {
     "public": {
-        "chainName": "Landslide SIMD",
-        "chainId": "landslide-simd",
+        "chainName": "ibc-1",
+        "chainId": "ibc-1",
         "gtm": "",
         "genesis_time": "2023-03-04T03:46:06.533236098Z",
         "slashingWindow": 10000,
         "uptimeWindow": 250,
         "initialPageSize": 30,
         "secp256k1": false,
-        "bech32PrefixAccAddr": "wasm",
-        "bech32PrefixAccPub": "wasmpub",
-        "bech32PrefixValAddr": "wasmvaloper",
-        "bech32PrefixValPub": "wasmvaloperpub",
-        "bech32PrefixConsAddr": "wasmvalcons",
-        "bech32PrefixConsPub": "wasmvalconspub",
+        "bech32PrefixAccAddr": "cosmos",
+        "bech32PrefixAccPub": "cosmospub",
+        "bech32PrefixValAddr": "cosmosvaloper",
+        "bech32PrefixValPub": "cosmosvaloperpub",
+        "bech32PrefixConsAddr": "cosmosvalcons",
+        "bech32PrefixConsPub": "cosmosvalconspub",
         "bondDenom": "stake",
         "powerReduction": 1000000,
         "coins": [
@@ -39,17 +39,17 @@
         "coingeckoId": "stake",
         "networks": [
             {
-                "name": "Landslide SIMD",
-                "chainId": "landslide-simd",
-                "rpc": "http://10.128.78.134:26657",
-                "api": "http://10.128.78.134:1317"
+                "name": "ibc-1",
+                "chainId": "ibc-1",
+                "rpc": "https://simd-rpc.testnet.landslide.network",
+                "api": "https://simd-api.testnet.landslide.network"
             }
         ],
         "banners": false
     },
     "remote": {
-        "rpc": "http://10.128.78.134:26657",
-        "api": "http://10.128.78.134:1317"
+        "rpc": "https://simd-rpc.testnet.landslide.network",
+        "api": "https://simd-api.testnet.landslide.network"
     },
     "debug": {
         "startTimer": true
