@@ -41,15 +41,15 @@
             {
                 "name": "ibc-1",
                 "chainId": "ibc-1",
-                "rpc": "https://simd-rpc.testnet.landslide.network",
-                "api": "https://simd-api.testnet.landslide.network"
+                "rpc": "http://10.128.78.134:26657",
+                "api": "http://10.128.78.134:1317"
             }
         ],
         "banners": false
     },
     "remote": {
-        "rpc": "https://simd-rpc.testnet.landslide.network",
-        "api": "https://simd-api.testnet.landslide.network"
+        "rpc": "http://10.128.78.134:26657",
+        "api": "http://10.128.78.134:1317"
     },
     "debug": {
         "startTimer": true
