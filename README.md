@@ -42,7 +42,7 @@ This project is a fork from the excellent [Big Dipper](https://github.com/forbol
 
 ### Requirements
 
-* [Meteor v2.x](https://www.meteor.com/install)
+* [Meteor v2.x](https://docs.meteor.com/about/install.html)
 
 ### Run in local
 
@@ -64,7 +64,7 @@ docker-compose up
 
 It will create a packaged Node JS tarball in `Linux x86_64` architecture at `../output`. Deploy that packaged Node JS project with process manager like [PM2](https://github.com/Unitech/pm2) or [Phusion Passenger](https://www.phusionpassenger.com/library/walkthroughs/basics/nodejs/fundamental_concepts.html).
 
-You will need to have [MongoDB >= 4.x](https://docs.mongodb.com/manual/administration/install-on-linux/) installed and [setup environment variables](https://guide.meteor.com/deployment.html#environment) correctly in order run in production. For more details on how to deploy a Meteor application, please refer to the offical documentation on [Custom Deployment](https://guide.meteor.com/deployment.html#custom-deployment). 
+You will need to have [MongoDB >= 4.x](https://docs.mongodb.com/manual/administration/install-on-linux/) installed and [setup environment variables](https://guide.meteor.com/deployment.html#environment) correctly in order run in production. For more details on how to deploy a Meteor application, please refer to the offical documentation on [Custom Deployment](https://guide.meteor.com/deployment.html#custom-deployment).
 
 ### Docker builds
 
@@ -73,7 +73,7 @@ big-dipper docker image is a multi stage build that is based on [disney/meteor-b
 ---
 ## Donations :pray:
 
-You will need to have [MongoDB >= 4.x](https://docs.mongodb.com/manual/administration/install-on-linux/) installed and [setup environment variables](https://guide.meteor.com/deployment.html#environment) correctly in order run in production. For more details on how to deploy a Meteor application, please refer to the offical documentation on [Custom Deployment](https://guide.meteor.com/deployment.html#custom-deployment). 
+You will need to have [MongoDB >= 4.x](https://docs.mongodb.com/manual/administration/install-on-linux/) installed and [setup environment variables](https://guide.meteor.com/deployment.html#environment) correctly in order run in production. For more details on how to deploy a Meteor application, please refer to the offical documentation on [Custom Deployment](https://guide.meteor.com/deployment.html#custom-deployment).
 
 ATOM: `cosmos1n67vdlaejpj3uzswr9qapeg76zlkusj5k875ma`\
 BTC: `bc1qye4k27zsn5nehzded6jwsvzg8qd6kgvxyhckts`\
