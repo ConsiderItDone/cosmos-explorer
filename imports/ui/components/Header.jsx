@@ -172,7 +172,7 @@ export default class Header extends Component {
     render() {
         let signedInAddress = getUser();
         return (
-            <Navbar color="#000000" dark expand="lg" fixed="top" id="header">
+            <Navbar color="dark" expand="lg" fixed="top" id="header">
                 <NavbarBrand tag={Link} to="/"><img src="/img/fetch-logo.svg" className="img-fluid logo" /> <span className="d-none d-xl-inline-block"><T>Block explorer</T>&nbsp;</span></NavbarBrand>
                 <UncontrolledDropdown className="d-inline text-nowrap">
                     <DropdownToggle caret={(this.state.networks !== "")} tag="span" size="sm" id="network-nav">{Meteor.settings.public.chainId}</DropdownToggle>
