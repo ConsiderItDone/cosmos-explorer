@@ -14,12 +14,12 @@
         "bech32PrefixValPub": "cosmosvaloperpub",
         "bech32PrefixConsAddr": "cosmosvalcons",
         "bech32PrefixConsPub": "cosmosvalconspub",
-        "bondDenom": "stake",
+        "bondDenom": "urwife",
         "powerReduction": 1000000,
         "coins": [
             {
-                "denom": "stake",
-                "displayName": "STAKE",
+                "denom": "urwife",
+                "displayName": "urwife",
                 "fraction": 1000000
             }
         ],
@@ -36,7 +36,7 @@
             "gov": true,
             "distribution": false
         },
-        "coingeckoId": "stake",
+        "coingeckoId": "urwife",
         "networks": [
             {
                 "name": "urwife-1",
