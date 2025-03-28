@@ -1,7 +1,7 @@
 {
     "public": {
-        "chainName": "ibc-1",
-        "chainId": "ibc-1",
+        "chainName": "urwife-1",
+        "chainId": "urwife-1",
         "gtm": "",
         "genesis_time": "2023-03-04T03:46:06.533236098Z",
         "slashingWindow": 10000,
@@ -39,8 +39,8 @@
         "coingeckoId": "stake",
         "networks": [
             {
-                "name": "ibc-1",
-                "chainId": "ibc-1",
+                "name": "urwife-1",
+                "chainId": "urwife-1",
                 "rpc": "http://159.65.38.79:26657",
                 "api": "http://159.65.38.79:1317"
             }
